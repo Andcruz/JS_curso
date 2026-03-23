@@ -9,12 +9,12 @@
     <h1>Nacionalidade de origem</h1>
     Qual sua nacionalidade: <input type="nati" id="nati">
     <input type="button" value="verificar" onclick="responder()">
-    <div id="res"></div>
+    <output></output>
     <script>
         function verificarNatio() {
             var txtnati = window.document.querySelector('input#nati')
             var res = window.document.querySelector('div#res')
-            var resp = Text(txtnati.va)
+            var resp = Text(txtnati.value)
             res.innerHTML = `<p>Sua nacionalidade é <strong>${resp}</strong></p>`
             if (resp == Brasileiro) {
                 res.innerHTML += `<p>Você é <strong>BRASILEIRO</strong></p>`
