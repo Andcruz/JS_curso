@@ -16,13 +16,13 @@
         function responder() {
             var txtnati = window.document.querySelector('input#nati')
             var res = window.document.querySelector('div#res')
-            var resp = String(txtnati.value)
-            res.innerHTML = `<p>Sua nacionalidade é <strong>${resp}</strong></p>`
-            if (resp == Brasileiro) {
-                res.innerHTML = `<p>Você é <strong>BRASILEIRO</strong></p>`
+            var resp = txtnati.value.trim()
+            
+            if (resp === 'brasileiro') {
+                res.innerHTML += `<p>Você é <strong>BRASILEIRO</strong></p>`
             } else {
-                res.innerHTML = `<p>Você é <strong>ESTRANGEIRO</strong></P>`
-            }
+              res.innerHTML += `<p>Você é <strong>ESTRANGEIRO</strong></p>`
+              }
 
 
         }
