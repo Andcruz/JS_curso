@@ -18,7 +18,7 @@
             var res = window.document.querySelector('div#res')
             var resp = txtnati.value.trim()
             
-            if (resp === 'brasileiro') {
+            if (resp.toLowerCase() === 'brasileiro') {
                 res.innerHTML += `<p>Você é <strong>BRASILEIRO</strong></p>`
             } else {
               res.innerHTML += `<p>Você é <strong>ESTRANGEIRO</strong></p>`
