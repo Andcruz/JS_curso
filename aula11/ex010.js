@@ -1,6 +1,6 @@
 var agora = new Date()
 var diaSem = agora.getDay()
-diaSem = 6
+//diaSem = 6
 /*
 0 = Domingp
 1 = Segunda
