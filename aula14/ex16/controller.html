@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,13 +12,14 @@
     </header>
     <section>
        <div>
-        <p>Início: <input type="text" name="initPass" id="initPass"></p>
-        <p>Fim:  <input type="text" name="totalPass" id="totalPass"></p> 
-        <p>Passo: <input type="text" name="pularPass" id="pularPass"></p>
-        <p><input type="button" value="Contar" onclick="Contar()"></p>
-        <p>Contando:</p>
+        <p>Início: <input type="number" name="initPass" id="txti"></p>
+        <p>Fim:  <input type="number" name="totalPass" id="txtf"></p> 
+        <p>Passo: <input type="number" name="pularPass" id="txtp"></p>
+        <p><input type="button" value="Contar" onclick="contar()"></p>
+        </div>
+    <div id="res">
+        Preparando Contagem...
     </div>
-    <div id="res"></div>
     </section>
     <footer>
         <p>&COPY; CursoEmVideo</p>
@@ -26,5 +27,3 @@
     <script src="controller.js"></script>
 </body>
 </html>
-👉
-🏁
