@@ -2,6 +2,7 @@ body{
     margin: auto;
     text-align: center;
     
+    
 }
 .card{
     border: 1px solid #ccc;
@@ -9,4 +10,10 @@ body{
     padding: 10px;
     margin: 10px;
     display: inline-block;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
 }
