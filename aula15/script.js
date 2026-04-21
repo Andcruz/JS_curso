@@ -1,4 +1,4 @@
-let num = [9, 2, 4, 1] 
+let num = [9, 2, 4, 1, 3, 8] 
 let pos = 0
 
 num.sort() //Coloca os valores númericos em ordem crescente
