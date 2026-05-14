@@ -1,10 +1,11 @@
-function parimpar(n){
+function parimpar(n) {
     if (n % 2 == 0) {
         return 'par'
     } else {
         return 'impar'
     }
 }
+console.log(parimpar(34))
 
-let res = parimpar(5)
-console.log(`O número digitado é ${res}!`)
+
+
