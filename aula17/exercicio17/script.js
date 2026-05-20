@@ -30,3 +30,11 @@ function adicionar() {
         window.alert('Valor inválido ou já encontrado na lista.');
     }
 }
+
+function finalizar() {
+    if (valores.length == 0) {
+        window.alert('Adicione valores antes de finalizar!');
+    } else {
+        // Lógica para finalizar a análise
+    }
+}
