@@ -32,6 +32,6 @@ Registrar minha evolução nos estudos de programação, praticando conceitos de
 
 ## Autor
 
-Anderson Chaves
+Anderson Chaves da Cruz
 
 [GitHub](https://github.com/Andcruz)
